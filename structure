@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Football Blog</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div id="logo">
+      <h1>Football Central</h1>
+      <p>Your Source for Football News</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Matches</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div id="main-container">
+    
+    <!-- Main Content Section -->
+    <section id="main-content">
+      <article class="post">
+        <h2>Top 5 Matches of the Week</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec nisl urna. Suspendisse vel nunc vitae felis tincidunt tristique.</p>
+        <a href="#">Read more...</a>
+      </article>
+
+      <article class="post">
+        <h2>Breaking: Major Transfers of the Season</h2>
+        <p>Curabitur cursus nisl et urna varius, id feugiat est malesuada. Sed sit amet vestibulum nunc, ut vulputate lacus. Quisque dignissim...</p>
+        <a href="#">Read more...</a>
+      </article>
+
+      <article class="post">
+        <h2>Premier League Weekly Round-Up</h2>
+        <p>Fusce ac venenatis urna, sed bibendum sapien. Nullam consequat, est in hendrerit auctor, dolor orci feugiat felis, vitae ultricies...</p>
+        <a href="#">Read more...</a>
+      </article>
+    </section>
+
+    <!-- Sidebar Section -->
+    <aside id="sidebar">
+      <div class="widget">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">Premier League</a></li>
+          <li><a href="#">La Liga</a></li>
+          <li><a href="#">Serie A</a></li>
+          <li><a href="#">Champions League</a></li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li><a href="#">Player of the Year Candidates</a></li>
+          <li><a href="#">World Cup Qualifiers Update</a></li>
+          <li><a href="#">Top Goal Scorers This Season</a></li>
+          <li><a href="#">Transfer Rumors and Deals</a></li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Football Central. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
