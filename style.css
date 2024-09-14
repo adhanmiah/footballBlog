@@ -125,3 +125,8 @@ footer {
 footer p {
   font-size: 14px;
 }
+@media (max-width: 768px) {
+  #main-container {
+    grid-template-columns: 1fr; /* Single-column layout on small screens */
+  }
+}
